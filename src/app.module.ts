@@ -12,9 +12,9 @@ import { Docente } from './docentes/entities/docente.entity';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'mysql',
-      host: 'mysql.railway.internal',
-      port: 3306,
+      type: 'MySQL',
+      host: 'autorack.proxy.rlwy.net',
+      port: 44378,
       username: 'root',
       password: 'lkfjpUqeMNohBTpMIXdztvfXXkoLnNKJ',
       database: 'railway',
