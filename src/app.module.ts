@@ -13,10 +13,10 @@ import { Docente } from './docentes/entities/docente.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'mysql.railway.internal',
+      host: 'mysql-iydo.railway.internal',
       port: 3306,
       username: 'root',
-      password: 'irAkeaJpLrjMaltyzxQZcuKKVCjwgweb',
+      password: 'XWNujBpylbdmHzmLEQyrbGaEnkKduBji',
       database: 'railway',
       entities: [ Alumno, Asistencia, Docente ],
       synchronize: true,
