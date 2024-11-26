@@ -12,11 +12,11 @@ import { Docente } from './docentes/entities/docente.entity';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'MySQL',
+      type: 'mysql',
       host: 'autorack.proxy.rlwy.net',
-      port: 44378,
+      port: 15026,
       username: 'root',
-      password: 'lkfjpUqeMNohBTpMIXdztvfXXkoLnNKJ',
+      password: 'irAkeaJpLrjMaltyzxQZcuKKVCjwgweb',
       database: 'railway',
       entities: [ Alumno, Asistencia, Docente ],
       synchronize: true,
