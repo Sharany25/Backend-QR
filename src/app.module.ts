@@ -13,8 +13,8 @@ import { Docente } from './docentes/entities/docente.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'mysql.railway.internal',
-      port: 33060,
+      host: 'RAILWAY_PRIVATE_DOMAIN',
+      port: 3306,
       username: 'root',
       password: 'tVrrZuahjOwygJBrDRCUUNDLihdiyKHO',
       database: 'railway',
